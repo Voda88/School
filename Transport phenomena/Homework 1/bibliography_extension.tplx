@@ -1,0 +1,19 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{Mikko Karkkainen}
+((* endblock author *))
+
+((* block title *))
+\title{Homework 1}
+((* endblock title *))
+
+((* block bibliography *))
+\bibliographystyle{plain}
+\bibliography{ref}
+((* endblock bibliography *))
+
+((* block commands *))
+\setcounter{secnumdepth}{0} % Turns off numbering for sections
+((( super() )))
+((* endblock commands *))
