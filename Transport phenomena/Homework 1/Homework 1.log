@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.1)  24 AUG 2017 18:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.1)  25 AUG 2017 17:08
 entering extended mode
 **Homework*1.tex
 
@@ -631,6 +631,9 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 270.
 
 LaTeX Warning: Label `section' multiply defined.
 
+
+LaTeX Warning: Label `section' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 278.
 LaTeX Font Info:    ... okay on input line 278.
@@ -752,23 +755,116 @@ LaTeX Info: Redefining \nameref on input line 278.
 ("C:\Users\Nastac\Documents\MikkoKarkkainen\School\Transport phenomena\Homework
  1\Homework 1.out")
 ("C:\Users\Nastac\Documents\MikkoKarkkainen\School\Transport phenomena\Homework
- 1\Homework 1.out"
-! I can't write on file `"Homework 1.pdf"'.
-Please type another file name for output: 
-! Emergency stop.
-\Hy@OutlineName ...utline goto name{#2}count#3{#4}
-                                                  
-l.1 \BOOKMARK [1][-]{section*.1}{1.1}{}
-                                       % 1
-End of file on the terminal!
+ 1\Homework 1.out")
+\@outlinefile=\write4
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 282.
 
- 
+
+("C:\Users\Nastac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 282
+.
+
+("C:\Users\Nastac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd
+"
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 282
+.
+
+("C:\Users\Nastac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd
+"
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 282
+.
+
+("C:\Users\Nastac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd
+"
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 282
+.
+
+("C:\Users\Nastac\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd
+"
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 282.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 282.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 282.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 282.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 282.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 282.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 290.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 290.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 290.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 290.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 290.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 290.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 292.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 327.
+ [1
+
+{C:/Users/Nastac/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("C:\Users\Nastac\Documents\MikkoKarkkainen\School\Transport phenomena\Homework
+ 1\Homework 1.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
+
+("C:\Users\Nastac\Documents\MikkoKarkkainen\School\Transport phenomena\Homework
+ 1\Homework 1.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
+Package rerunfilecheck Info: File `Homework*1.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
+ ) 
 Here is how much of TeX's memory you used:
- 10702 strings out of 493921
- 163691 string characters out of 3147280
- 258643 words of memory out of 3000000
- 13827 multiletter control sequences out of 15000+200000
- 5746 words of font info for 18 fonts, out of 3000000 for 9000
+ 10886 strings out of 493921
+ 166626 string characters out of 3147280
+ 266678 words of memory out of 3000000
+ 13944 multiletter control sequences out of 15000+200000
+ 33679 words of font info for 88 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,1n,38p,387b,76s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 36i,10n,38p,387b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Nastac/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8
+r.enc}<C:/Users/Nastac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/Nastac/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Nastac/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nastac/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Nastac/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Nas
+tac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/U
+sers/Nastac/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.
+pfb>
+Output written on "Homework 1.pdf" (2 pages, 76055 bytes).
+PDF statistics:
+ 77 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+
