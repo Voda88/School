@@ -1,0 +1,34 @@
+    Example 11.7.2a: Bending of a cantilever beam by plane elasticity
+    2   1   0   0                          ITYPE,IGRAD,ITEM,NEIGN
+    1   4   1   0                          IELTYP,NPE,MESH,NPRNT
+    4   2                                  NX, NY
+    0.0  2.5   2.5   2.5   2.5             X0, DX(I)
+    0.0  1.0   1.0                         Y0, DY(I)
+    4                                      NSPV
+    5  1  10 1   10 2   15 1               ISPV
+    0.0   0.0    0.0    0.0                VSPV
+    3                                      NSSV
+    1  2    6  2  11  2                    ISSV
+   -75.0  -150.0  -75.0                    VSSV
+    1                                      LNSTRS
+    30.0E06  30.0E06  0.25  12.0E06  1.0   E1,E2,ANU12,G12,THKNS
+    0.0   0.0   0.0                        F0, FX, FY
+
+    Example 11.7.2b: Bending of a cantilever beam by plane elasticity
+    2   1   0   0                          ITYPE,IGRAD,ITEM,NEIGN
+    2   9   1   0                          IELTYP,NPE,MESH,NPRNT
+    4   1                                  NX, NY
+    0.0  2.5   2.5   2.5   2.5             X0, DX(I)
+    0.0  2.0                               Y0, DY(I)
+    4                                      NSPV
+    9  1  18 1   18 2   27 1               ISPV
+    0.0   0.0    0.0    0.0                VSPV
+    3                                      NSSV
+    1  2   10  2   19  2                   ISSV
+   -50.0  -200.0  -50.0                    VSSV
+    1                                      LNSTRS
+    30.0E06  30.0E06  0.25  12.0E06  1.0   E1,E2,ANU12,G12,THKNS
+    0.0   0.0   0.0                        F0, FX, FY
+
+
+

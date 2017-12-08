@@ -1,0 +1,108 @@
+  Example 8.6.2(d): Transient analysis of an parabolic equation (heat transfer)         
+    0   0   1   0                                ITYPE,IGRAD,ITEM,NEIGN         
+    0   3   1   0                                IELTYP,NPE,MESH,NPRNT          
+                                                                                
+    4   4                                        NX,NY                          
+    0.0  0.25   0.25   0.25   0.25               X0,DX(I)                       
+    0.0  0.25   0.25   0.25   0.25               Y0,DY(I)                       
+                                                                                
+    9                                                              NSPV         
+    5 1  10 1   15 1   20 1   21 1   22 1   23 1   24 1  25 1      ISPV         
+    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0      VSPV         
+                                                                                
+    0                                                              NSSV         
+                                                                                
+    1.0  0.0  0.0                                A10, A1X, A1Y                  
+    1.0  0.0  0.0                                A20, A2X, A2Y                  
+    0.0                                          A00                            
+                                                                                
+    0                                            ICONV                          
+                                                                                
+    1.0  0.0  0.0                                F0,  FX,  FY                   
+                                                                                
+    1.0  0.0  0.0                                C0,  CX,  CY                   
+                                                                                
+    200    201  20    0                          NTIME,NSTP,INTVL,INTIAL        
+    0.005  0.5  0.5  1.0E-4                      DT,ALFA,GAMA,EPSLN             
+
+  Example 8.6.2(c): Transient analysis of an parabolic equation (heat transfer)         
+    0   0   1   0                                ITYPE,IGRAD,ITEM,NEIGN         
+    0   3   1   0                                IELTYP,NPE,MESH,NPRNT          
+                                                                                
+    4   4                                        NX,NY                          
+    0.0  0.25   0.25   0.25   0.25               X0,DX(I)                       
+    0.0  0.25   0.25   0.25   0.25               Y0,DY(I)                       
+                                                                                
+    9                                                              NSPV         
+    5 1  10 1   15 1   20 1   21 1   22 1   23 1   24 1  25 1      ISPV         
+    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0      VSPV         
+                                                                                
+    0                                                              NSSV         
+                                                                                
+    1.0  0.0  0.0                                A10, A1X, A1Y                  
+    1.0  0.0  0.0                                A20, A2X, A2Y                  
+    0.0                                          A00                            
+                                                                                
+    0                                            ICONV                          
+                                                                                
+    1.0  0.0  0.0                                F0,  FX,  FY                   
+                                                                                
+    1.0  0.0  0.0                                C0,  CX,  CY                   
+                                                                                
+    12    13   1    0                          NTIME,NSTP,INTVL,INTIAL        
+    0.01  0.0  0.5  1.0E-4                      DT,ALFA,GAMA,EPSLN             
+
+  Example 8.6.2(b): Transient analysis of an parabolic equation (heat transfer)         
+    0   0   1   0                                ITYPE,IGRAD,ITEM,NEIGN         
+    0   3   1   0                                IELTYP,NPE,MESH,NPRNT          
+                                                                                
+    4   4                                        NX,NY                          
+    0.0  0.25   0.25   0.25   0.25               X0,DX(I)                       
+    0.0  0.25   0.25   0.25   0.25               Y0,DY(I)                       
+                                                                                
+    9                                                              NSPV         
+    5 1  10 1   15 1   20 1   21 1   22 1   23 1   24 1  25 1      ISPV         
+    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0      VSPV         
+                                                                                
+    0                                                              NSSV         
+                                                                                
+    1.0  0.0  0.0                                A10, A1X, A1Y                  
+    1.0  0.0  0.0                                A20, A2X, A2Y                  
+    0.0                                          A00                            
+                                                                                
+    0                                            ICONV                          
+                                                                                
+    1.0  0.0  0.0                                F0,  FX,  FY                   
+                                                                                
+    1.0  0.0  0.0                                C0,  CX,  CY                   
+                                                                                
+    30    31   1    0                          NTIME,NSTP,INTVL,INTIAL        
+    0.005  0.0  0.5  1.0E-4                      DT,ALFA,GAMA,EPSLN             
+
+  Example 8.6.2(a): Transient analysis of an parabolic equation (heat transfer)         
+    0   0   1   0                                ITYPE,IGRAD,ITEM,NEIGN         
+    0   3   1   0                                IELTYP,NPE,MESH,NPRNT          
+                                                                                
+    4   4                                        NX,NY                          
+    0.0  0.25   0.25   0.25   0.25               X0,DX(I)                       
+    0.0  0.25   0.25   0.25   0.25               Y0,DY(I)                       
+                                                                                
+    9                                                              NSPV         
+    5 1  10 1   15 1   20 1   21 1   22 1   23 1   24 1  25 1      ISPV         
+    0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.0      VSPV         
+                                                                                
+    0                                                              NSSV         
+                                                                                
+    1.0  0.0  0.0                                A10, A1X, A1Y                  
+    1.0  0.0  0.0                                A20, A2X, A2Y                  
+    0.0                                          A00                            
+                                                                                
+    0                                            ICONV                          
+                                                                                
+    1.0  0.0  0.0                                F0,  FX,  FY                   
+                                                                                
+    1.0  0.0  0.0                                C0,  CX,  CY                   
+                                                                                
+    50    51   1    0                          NTIME,NSTP,INTVL,INTIAL        
+    0.01  0.5  0.5  1.0E-4                      DT,ALFA,GAMA,EPSLN             
+                                                                                

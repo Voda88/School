@@ -1,0 +1,19 @@
+  Example 11.7.3: Transient analysis of a beam by plane elasticity
+    2   1   2   0                          ITYPE,IGRAD,ITEM,NEIGN
+    1   4   1   0                          IELTYP,NPE,MESH,NPRNT
+    4   2                                  NX, NY
+    0.0  2.5   2.5   2.5   2.5             X0,DX(I)
+    0.0  1.0   1.0                         Y0,DY(I)
+    4                                      NSPV
+    5  1  10 1   10 2   15 1               ISPV
+    0.0   0.0    0.0    0.0                VSPV
+    3                                      NSSV
+    1  2   6  2   11  2                    ISSV
+   -75.0  -150.0  -75.0                    VSSV
+    1                                      LNSTRS
+    30.0E06  30.0E06  0.25  12.0E06  1.0   E1,E2,ANU12,G12,THKNS
+    0.0    0.0   0.0                       F0, FX, FY
+    8.8255E-03  0.0  0.0                   C0, CX, CY
+    20   21   1    0                       NTIME,NSTP,INTVL,INTIAL
+    0.25E-03     0.5  0.5  1.0E-3          DT,ALFA,GAMA,EPSLN
+

@@ -1,0 +1,87 @@
+  Example 8.1(b): Poisson equation using Triangles (Mesh T2)            
+    0   1   0   0                    ITYPE,IGRAD,ITEM,NEIGN        
+    0   3   0   0                    IELTYP,NPE,MESH,NPRNT         
+    16  15                           NEM, NNM                        
+    1   2   3                        NOD(I,J)
+    5   3   2
+    2   4   5
+    8   5   4
+    4   7   8
+   12   8   7
+    7  11  12
+    3   5   6
+    9   6   5
+    5   8   9
+   13   9   8
+    8  12  13
+    6   9  10
+   14  10   9
+    9  13  14
+   10  14  15  
+    0.0  0.0    0.25  0.0   0.25  0.25   0.5  0.0  
+    0.5  0.25   0.5   0.5   0.75  0.0    0.75 0.25
+    0.75 0.5    0.75  0.75  1.0   0.0    1.0  0.25
+    1.0  0.5    1.0   0.75  1.0   1.0 GLXY(I,J)                                                                      
+    5                                 NSPV                          
+    11 1  12 1  13 1  14 1  15 1      ISPV(I,J)                     
+    0.0   0.0   0.0   0.0   0.0       VSPV(I)                       
+    0                                 NSSV                          
+    1.0  0.0  0.0                     A10, A1X, A1Y                 
+    1.0  0.0  0.0                     A20, A2X, A2Y                 
+    0.0                               A00                           
+    0                                 ICONV                         
+    1.0  0.0  0.0                     F0, FX, FY                  
+
+  Example 8.3.1: Poisson equation using Triangles (Mesh T1)            
+    0   1   0   0                  ITYPE,IGRAD,ITEM,NEIGN        
+    0   3   0   0                  IELTYP,NPE,MESH,NPRNT         
+    4   6                          NEM, NNM                        
+    1   2   3                      NOD(1,J)
+    5   3   2                      NOD(2,J)
+    2   4   5                      NOD(3,J)
+    3   5   6                      NOD(4,J)
+    0.0   0.0    0.5  0.0   0.5  0.5   1.0  0.0  
+    1.0   0.5    1.0  1.0          GLXY(I,J)                                                                     
+    3                              NSPV                          
+    4 1  5 1  6 1                  ISPV(I,J)                     
+    0.0  0.0  0.0                  VSPV(I)                       
+    0                              NSSV                          
+    1.0  0.0  0.0                  A10, A1X, A1Y                 
+    1.0  0.0  0.0                  A20, A2X, A2Y                 
+    0.0                            A00                           
+    0                              ICONV                         
+    1.0  0.0  0.0                  F0, FX, FY                  
+ 
+  Example 8.3.1: Poisson equation using rectangles (Mesh R2)            
+    0   1   0   0                  ITYPE,IGRAD,ITEM,NEIGN        
+    1   4   1   0                  IELTYP,NPE,MESH,NPRNT         
+    4   4                          NX, NY             
+    0.0  0.25  0.25  0.25  0.25    DX(I)
+    0.0  0.25  0.25  0.25  0.25    DY(I) 
+    9                              NSPV                          
+    5 1  10 1  15 1 20 1 21 1  22 1  
+   23 1  24 1  25 1                ISPV(I,J)                     
+    0.0  0.0   0.0  0.0  0.0   0.0                  
+    0.0  0.0   0.0                 VSPV(I)                       
+    0                              NSSV                          
+    1.0  0.0  0.0                  A10, A1X, A1Y                 
+    1.0  0.0  0.0                  A20, A2X, A2Y                 
+    0.0                            A00                           
+    0                              ICONV                         
+    1.0  0.0  0.0                  F0, FX, FY                  
+
+  Example 8.3.1: Poisson equation using rectangles (Mesh R1)            
+    0   1   0   0                    ITYPE,IGRAD,ITEM,NEIGN        
+    1   4   1   0                    IELTYP,NPE,MESH,NPRNT         
+    2   2                            NX, NY  
+    0.0  0.5 0.5                     DX(I)
+    0.0  0.5 0.5                     DY(I)
+    5                                NSPV                          
+    3 1  6 1  7 1  8 1  9 1          ISPV(I,J)                     
+    0.0  0.0  0.0  0.0  0.0          VSPV(I)                       
+    0                                NSSV                          
+    1.0  0.0  0.0                    A10, A1X, A1Y                 
+    1.0  0.0  0.0                    A20, A2X, A2Y                 
+    0.0                              A00                           
+    0                                ICONV                         
+    1.0  0.0  0.0                    F0,  FX,  FY                  
